@@ -10,21 +10,58 @@
             <b-navbar
               toggleable="lg"
               type="dark"
-              variant="info">
-              <b-navbar-brand href="#">The Lamb Sauce</b-navbar-brand>
+              variant="info"
+            >
+              <b-navbar-brand href="#">
+                The Lamb Sauce
+              </b-navbar-brand>
 
-              <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+              <b-navbar-toggle target="nav-collapse" />
 
-                <b-collapse id="nav-collapse" is-nav>
+              <b-collapse
+                id="nav-collapse"
+                is-nav
+              >
                 <b-navbar-nav>
-                    <b-link to="/"
-                    router-tag="b-nav-item">Home</b-link>
-                    <b-link to="/About"
-                    router-tag="b-nav-item">About</b-link>
-                    <b-link to="/Contact"
-                    router-tag="b-nav-item">Contact</b-link>
-                    <b-link to="/Menu"
-                    router-tag="b-nav-item">Menu</b-link>
+                  <b-link
+                    to="/"
+                    router-tag="b-nav-item"
+                  >
+                    Home
+                  </b-link>
+                  <b-link
+                    to="/About"
+                    router-tag="b-nav-item"
+                  >
+                    About
+                  </b-link>
+                  <b-link
+                    to="/Contact"
+                    router-tag="b-nav-item"
+                  >
+                    Contact
+                  </b-link>
+                  <b-link
+                    to="/Menu"
+                    router-tag="b-nav-item"
+                  >
+                    Useless Facts
+
+                  </b-link>
+                  <b-link
+                    to="/Login"
+                    router-tag="b-nav-item"
+                  >
+                    Log in
+                    
+                  </b-link>
+                  <b-link
+                    to="/Logout"
+                    router-tag="b-nav-item"
+                  >
+                    Log Out
+                    
+                  </b-link>
                 </b-navbar-nav>
               </b-collapse>
             </b-navbar>
