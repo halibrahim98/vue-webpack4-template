@@ -4,13 +4,3 @@
     <img src="https://static.tvtropes.org/pmwiki/pub/images/atg_5005.png">
   </div>
 </template>
-
-<script>
-import WelcomeMessage from 'components/Home/WelcomeMessage'
-
-export default {
-  components: {
-    WelcomeMessage
-  }
-}
-</script>

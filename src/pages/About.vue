@@ -4,13 +4,3 @@
     <img src="https://cdn.mos.cms.futurecdn.net/Dfn655wibhLzV3mZgLQK9m-320-80.jpg">
   </div>
 </template>
-
-<script>
-import WelcomeMessage from 'components/Home/WelcomeMessage'
-
-export default {
-  components: {
-    WelcomeMessage
-  }
-}
-</script>

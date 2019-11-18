@@ -13,7 +13,7 @@
               variant="info"
             >
               <b-navbar-brand href="#">
-                The Lamb Sauce
+                The Useless Archive
               </b-navbar-brand>
 
               <b-navbar-toggle target="nav-collapse" />
@@ -46,21 +46,12 @@
                     router-tag="b-nav-item"
                   >
                     Useless Facts
-
                   </b-link>
                   <b-link
                     to="/Login"
                     router-tag="b-nav-item"
                   >
                     Log in
-                    
-                  </b-link>
-                  <b-link
-                    to="/Logout"
-                    router-tag="b-nav-item"
-                  >
-                    Log Out
-                    
                   </b-link>
                 </b-navbar-nav>
               </b-collapse>
