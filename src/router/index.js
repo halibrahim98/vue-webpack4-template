@@ -5,6 +5,7 @@ import Home from 'pages/Home'
 import Contact from 'pages/Contact'
 import About from 'pages/About'
 import Menu from 'pages/Menu'
+import Login from 'pages/Login'
 
 Vue.use(Router)
 
@@ -24,6 +25,10 @@ const routes = [
   {
     path: '/Menu',
     component: Menu
+  },
+  {
+      path: '/Login',
+      component: Login
   }
 ]
 

@@ -1,21 +1,11 @@
 <template>
   <div class="full-width">
     <h1> Welcome to the Useless Archive!</h1>
+    <div class="full-width center-content">
+      <h1> Welcome <span v-if="user"> {{ user.name }} </span> !</h1>
+    </div>
     <img src="https://m.media-amazon.com/images/M/MV5BYjcxOGIyNTktZTNlOS00ODk1LTkwZDMtNjM0Mjk1YmE2MTliXkEyXkFqcGdeQXVyMjY0MzgwMTc@._V1_UY268_CR212,0,182,268_AL_.jpg">
     <p> In this Site, all the info is useless. So don't bother researching it. </p>
-
-    <template>
-  <div class="full-width center-content">
-    <ul>
-      <li
-        v-if="user"
-      >
-        {{ user.name }}
-      </li>
-    </ul>
-  </div>
-</template>
-
 
     <div>
       <b-card
@@ -50,18 +40,18 @@ export default {
     }
   },
   created: function () {
-    fetch('https://api.myjson.com/bins/a3wyt')
+    fetch('https://api.myjson.com/bins/ynkoi')
       .then(response => response.json())
       .then(json => {
-        this.products = json.products
+        this.users = json.users
       })
   },
   mounted: function () {
     let v = sessionStorage.user
-    if (v !== 'undefined') {
+    if (v !== undefined) {
+      console.log(v)
       this.user = JSON.parse(v)
     }
   }
 }
 </script>
-
